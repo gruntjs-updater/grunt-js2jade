@@ -1,4 +1,4 @@
-# grunt-js2jade v0.0.10 [![Build Status](https://travis-ci.org/bucaran/grunt-js2jade.svg?branch=master)](https://travis-ci.org/bucaran/grunt-js2jade)
+# grunt-js2jade v0.0.12 [![Build Status](https://travis-ci.org/bucaran/grunt-js2jade.svg?branch=master)](https://travis-ci.org/bucaran/grunt-js2jade)
 > Minifies JavaScript files into valid Jade files.
 
 ## Getting Started
@@ -40,7 +40,7 @@ Inside your grunt.config initialization add something like this:
 
 ## Release History
 
-+ 2014-08-24   v0.0.10   Added grunt-contrib-uglify dependency and simple testing.
++ 2014-08-24   v0.0.12   Added grunt-contrib-uglify dependency and simple testing.
 + 2014-08-19   v0.0.7    Fixed typos.
 + 2014-08-19   v0.0.1    Initial Release.
 
