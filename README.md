@@ -1,4 +1,4 @@
-# grunt-js2jade v0.0.7
+# grunt-js2jade v0.0.8
 > Minifies JavaScript files into valid Jade files.
 
 ## Getting Started
@@ -16,7 +16,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-js2jade');
 ```
 
-## What's this?
+## What's This?
 
 A grunt plugin to simplify using JavaScript libraries for Jade. It basically adds a trivial src:dest uglify task to your grunt.config object and appends a hyphen to the generated output to convert JavaScript files to valid Jade files.
 
@@ -36,10 +36,11 @@ Inside your grunt.config initialization add something like this:
 ##Get Social
 + [GitHub](http://github.com/bucaran)
 + [Twitter](http://twitter.com/jbucaran)
-+ [Home](http://bucaran.me)
++ [Homepage](http://bucaran.me)
 
 ## Release History
 
++ 2014-08-19   v0.0.8   Added grunt-contrib-uglify dependency.
 + 2014-08-19   v0.0.7   Fixed typos.
 + 2014-08-19   v0.0.1   Initial Release.
 
