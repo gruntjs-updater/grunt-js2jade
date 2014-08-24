@@ -1,7 +1,8 @@
-/*
+/**
+ *
  *  grunt-js2jade
  *
- *	github.com/bucaran/grunt-js2jade/blob/master/LICENSE-MIT
+ *	github.com/bucaran/grunt-js2jade/blob/master/LICENSE
  *
  *	Adds a src:dest uglify task to your grunt.config object
  *	and appends a hyphen to the generated output to convert
@@ -27,9 +28,15 @@ module.exports = function(grunt) {
 				dest: this.data.dest
 			}
 		});
+		if (!grunt.file.exists("node_modules/grunt-contrib-uglify")) {
+			grunt.log.writeln("Loading Uglify task...".cyan);
+			grunt.loadNpmTasks("grunt-js2jade/node_modules/grunt-contrib-uglify");
+		}
 		grunt.task.run('uglify');
 
-		grunt.log.writeln(this.data.src);
-		grunt.log.ok(this.data.dest.green);
+		this.data.src.forEach(function(item) {
+			grunt.log.writeln(item.grey);
+		});
+		grunt.log.ok(this.data.dest);
 	});
 }
