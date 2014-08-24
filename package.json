@@ -1,7 +1,7 @@
 {
   "name": "grunt-js2jade",
   "description": "Minifies JavaScript files into valid Jade files.",
-  "version": "0.0.12",
+  "version": "0.0.15",
   "homepage": "https://github.com/bucaran/grunt-js2jade",
   "author": {
     "name": "Jorge Bucaran",
