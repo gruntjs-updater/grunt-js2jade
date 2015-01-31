@@ -2,9 +2,7 @@
 > Minifies JavaScript files into valid Jade files.
 
 ## Getting Started
-This plugin requires Grunt `~0.4.0` and [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify).
-
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. Once you're familiar with the process, you may install this plugin with this command:
+This plugin requires [Grunt](http://gruntjs.com/) `~0.4.0` and [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify).
 
 ```shell
 npm install grunt-js2jade --save-dev
