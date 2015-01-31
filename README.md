@@ -50,7 +50,3 @@ Inside your grunt.config initialization add something like this:
 
 ##### 0.0.1 / 2014-08-19
   * Initial Release.
-
----
-
-Task submitted by [Jorge Bucaran](http://bucaran.me)
